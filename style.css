@@ -1,0 +1,60 @@
+:root {
+   --background: #f5f5f5;
+   --foreground: #222;
+}
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   color: var(--foreground);
+   background-color: var(--background);
+}
+
+a {
+   text-decoration: none;
+}
+
+.container-fluid {
+   width: 100%;
+   max-width: 1440px;
+   padding: 0 20px;
+   margin: 0 auto;
+}
+
+.container {
+   width: 100%;
+   max-width: 1440px;
+   padding: 0 20px;
+   margin: 0 auto;
+   padding: 0 150px;
+}
+
+nav {
+   min-height: 70px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.logo {
+   font-size: 22px;
+}
+
+.nav-list {
+   display: flex;
+   list-style: none;
+   gap: 10px;
+}
+
+main {
+   min-height: 60vh;
+}
+
+footer {
+   display: flex;
+   justify-content: center;
+}
