@@ -242,6 +242,8 @@ footer {
    .container {
       padding: 0 20px;
    }
+
+   /* hero */
    .hero-container {
       flex-wrap: wrap;
       justify-content: start;
@@ -266,5 +268,16 @@ footer {
    }
    #hero p {
       font-size: 14px;
+   }
+
+   /* brands */
+   #brands .container > div {
+      flex-direction: column;
+      gap: 20px;
+   }
+   .brands-logos {
+      flex-wrap: wrap;
+      gap: 20px 24px !important;
+      justify-content: center;
    }
 }
