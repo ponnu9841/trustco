@@ -180,6 +180,36 @@ main {
    min-height: 60vh;
 }
 
+/* Navigation */
+nav {
+   min-height: 98px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.logo {
+   display: flex;
+   align-items: center;
+   gap: 3px;
+   font-size: 22px;
+   font-weight: bolder;
+}
+
+.nav-list {
+   display: flex;
+   list-style: none;
+   font-size: 16px;
+   font-weight: 600;
+   gap: 40px;
+}
+.nav-actions {
+   display: flex;
+   gap: 10px;
+}
+.nav-actions button {
+   font-size: 16px;
+}
+
 /* Hero */
 
 #hero > div {
