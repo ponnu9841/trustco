@@ -92,6 +92,7 @@ p {
 }
 
 .img-fluid {
+   width: 100%;
    max-width: 100%;
    height: auto;
 }
@@ -341,7 +342,7 @@ footer {
    justify-content: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
    .container {
       padding: 0 20px;
    }
@@ -452,5 +453,37 @@ footer {
    .video-container .play-icon {
       width: 35px;
       height: 35px;
+   }
+
+   /* Benefits */
+   #beneficial > div {
+      flex-wrap: wrap;
+      gap: 34px !important;
+   }
+   .beneficial-header {
+      min-width: 100% !important;
+      text-align: center;
+   }
+   .beneficial-header .badge {
+      margin: 0 auto;
+   }
+   .beneficial-header h2 {
+      margin: 16px 0 !important;
+   }
+   .beneficial-header p {
+      font-size: 14px !important;
+   }
+   .beneficial-card-container {
+      flex-wrap: wrap;
+   }
+   .beneficial-card{
+      width: 100%;
+   }
+   .beneficial-card h3 {
+      font-size: 20px;
+   }
+   .beneficial-card p {
+      font-size: 14px !important;
+      line-height: 20px;
    }
 }
