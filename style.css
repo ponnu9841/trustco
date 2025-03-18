@@ -522,6 +522,65 @@ nav {
    }
 }
 
+#testimonial {
+   padding: 100px 0;
+   .testimonial-header a {
+      gap: 16px;
+   }
+   .testimonial-header {
+      margin-bottom: 64px;
+   }
+   .testimonial-card-container {
+      gap: 32px;
+   }
+   .testimonial-card {
+      border-radius: 16px;
+      padding: 24px;
+      flex: 1 0;;
+   }
+   .quote {
+      font-size: 90px;
+   }
+   .testimonial-content {
+      font-size: 24px;
+      margin-top: -53px;
+      margin-bottom: 24px;
+   }
+   .testimonial-info {
+      gap: 12px;
+      font-size: 16px;
+      img {
+         width: 48px;
+         height: 48px;
+         border-radius: 50%;
+      }
+      .testimonial-name {
+         font-weight: 700;
+         margin-bottom: 5px;
+      }
+      .testimonial-designation {
+         color: rgba(64, 64, 64, 1);
+      }
+   }
+   .carousel-buttons {
+      margin-top: 64px;
+      display: flex;
+      justify-content: center;
+      gap: 11px;
+      button {
+         border: none;
+         background: rgba(215, 224, 229, 1);
+         cursor: pointer;
+         width: 20px;
+         height: 12px;
+      }
+      button.active {
+         width: 80px;
+         background: rgb(var(--primary));
+      }
+   }
+}
+
 footer {
    display: flex;
    justify-content: center;
