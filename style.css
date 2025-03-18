@@ -164,6 +164,10 @@ p {
    font-weight: 700;
 }
 
+.rounded-full {
+   border-radius: 999px;
+}
+
 main {
    min-height: 60vh;
 }
@@ -291,6 +295,45 @@ nav {
    left: 50%;
    top: 50%;
    transform: translate(-50%, -50%);
+}
+
+/* Beneficial */
+#beneficial {
+   padding: 100px 0;
+}
+#beneficial .container {
+   gap: 64px;
+}
+#beneficial .beneficial-header {
+   max-width: 260px;
+}
+#beneficial h2 {
+   margin: 32px 0;
+}
+#beneficial p {
+   font-size: 21px;
+}
+#beneficial .badge {
+   padding: 4px 24px;
+   width: fit-content;
+   font-weight: 500;
+   min-height: 43px;
+}
+#beneficial .beneficial-card-container {
+   gap: 16px;
+   flex: 1 0;
+}
+#beneficial .beneficial-card {
+   padding: 32px 24px;
+   border-radius: 16px;
+}
+.beneficial-card h3 {
+   font-size: 24px;
+   margin: 32px 0 10px 0;
+}
+.beneficial-card p {
+   font-size: 18px !important;
+   line-height: 28px;
 }
 
 footer {
