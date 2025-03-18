@@ -522,6 +522,7 @@ nav {
    }
 }
 
+/* Testimonial */
 #testimonial {
    padding: 100px 0;
    .testimonial-header a {
@@ -532,11 +533,23 @@ nav {
    }
    .testimonial-card-container {
       gap: 32px;
+      padding: 0 150px;
+      max-width: 1440px;
+      margin: 0 auto;
+   }
+   .header-link {
+      position: absolute;
+      top: 22px;
+      right: 190px;
+      font-weight: 700;
    }
    .testimonial-card {
       border-radius: 16px;
       padding: 24px;
-      flex: 1 0;;
+      flex: 1;
+   }
+   .testimonial-card:first-child {
+      display: none;
    }
    .quote {
       font-size: 90px;
@@ -857,6 +870,70 @@ footer {
          width: 52px !important;
          height: 52px !important;
          top: 10px !important;
+      }
+   }
+
+   #testimonial {
+      padding: 50px 0;
+      h2 {
+         text-align: center;
+      }
+      .header-link {
+         top: calc(100% - 70px);
+         left: 50%;
+         transform: translateX(-50%);
+         width: 100px;
+         justify-content: center;
+      }
+      .testimonial-container {
+         display: grid;
+      }
+      .testimonial-card-container {
+         order: 3;
+         gap: 16px;
+         position: relative;
+         max-width: 100% !important;
+         overflow: hidden;
+         padding: 0;
+         justify-content: center;
+         align-items: stretch;
+         margin: auto;
+         margin-bottom: 110px;
+      }
+      .testimonial-card {
+         max-width: calc(100% - 80px) !important;
+         justify-content: center;
+         align-items: center;
+         max-height: 276px;
+      }
+      .testimonial-card:first-child {
+         display: block;
+      }
+      .testimonial-card.active {
+         flex: 0 0 calc(100% - 20px) !important;
+      }
+      .testimonial-header {
+         order: 1;
+         margin-bottom: 32px !important;
+      }
+      .testimonial-content {
+         font-size: 16px;
+      }
+      .testimonial-info img {
+         width: 32px;
+         height: 32px;
+      }
+      .testimonial-name {
+         font-size: 14px;
+         margin-bottom: 0 !important;
+      }
+      .testimonial-designation {
+         font-size: 12px;
+      }
+      .carousel-buttons {
+         order: 2;
+         margin-top: 0;
+         margin-bottom: 32px;
       }
    }
 }
