@@ -223,3 +223,34 @@ footer {
    display: flex;
    justify-content: center;
 }
+
+@media screen and (max-width: 768px) {
+   .container {
+      padding: 0 20px;
+   }
+   .hero-container {
+      flex-wrap: wrap;
+      justify-content: start;
+      margin-top: 40px;
+   }
+   .hero-content {
+      min-width: 100%;
+      order: 0;
+   }
+   .hero-image {
+      order: 1;
+      width: 50%;
+   }
+   .hero-actions {
+      flex-direction: column;
+   }
+   .hero-actions a:last-child {
+      justify-content: center;
+   }
+   #hero h1 {
+      font-size: 36px;
+   }
+   #hero p {
+      font-size: 14px;
+   }
+}
