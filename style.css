@@ -345,6 +345,9 @@ nav {
 #building-bridges {
    height: 700px;
    overflow: hidden;
+   .section-title {
+      font-size: 58px;
+   }
 }
 .building-bridges-image {
    width: 50%;
@@ -420,6 +423,21 @@ nav {
    aspect-ratio: 1/1;
    border-radius: 50%;
    background-color: rgba(var(--background), 0.16);
+}
+
+/* Numbers */
+#numbers > div {
+   gap: 64px;
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+.numbers-container {
+   flex-direction: column;
+   gap: 16px;
+   .sub-title {
+      font-size: 24px;
+      font-weight: 700;
+   }
 }
 
 footer {
@@ -576,7 +594,7 @@ footer {
    }
 
    /* Building Bridges */
-   #building-bridges{
+   #building-bridges {
       height: fit-content !important;
       padding: 50px 0;
    }
@@ -604,7 +622,7 @@ footer {
       }
    }
    .building-bridges-image img {
-      width: calc(100% - 54px) ;
+      width: calc(100% - 54px);
    }
    .building-bridges-image .image-badge {
       width: 160px;
@@ -622,7 +640,7 @@ footer {
          }
       }
       .text {
-         .rank{
+         .rank {
             font-size: 36px;
          }
          .rank + div {
