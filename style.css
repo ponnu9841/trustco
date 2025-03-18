@@ -219,6 +219,20 @@ main {
    gap: 16px;
 }
 
+/* brands */
+
+#brands {
+   padding: 50px 0;
+   display: flex;
+   align-items: center;
+}
+.brands-title {
+   font-size: 16px;
+}
+.brands-logos {
+   gap: 64px;
+}
+
 footer {
    display: flex;
    justify-content: center;
