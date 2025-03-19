@@ -653,6 +653,7 @@ nav {
 
 footer {
    display: flex;
+   flex-direction: column;
    justify-content: center;
    .footer-container {
       padding: 80px 0;
@@ -692,6 +693,16 @@ footer {
          flex-direction: column;
          gap: 24px;
       }
+   }
+   .credits {
+      padding: 24px 0;
+      font-size: 16px;
+   }
+   .credits-link {
+      gap: 32px;
+   }
+   .language {
+      gap: 7px;
    }
 }
 
