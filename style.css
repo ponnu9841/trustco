@@ -1134,10 +1134,27 @@ footer {
          width: calc(50% - 17px);
          .title {
             margin-bottom: 16px;
+            font-size: 18px;
          }
          .links {
             gap: 16px;
+            font-size: 16px;
          }
+      }
+      .credits > div {
+         flex-wrap: wrap;
+         gap: 32px;
+      }
+      .copyright {
+         margin: 0 auto;
+      }
+      .credits-link {
+         width: 100%;
+         justify-content: space-between;
+         padding: 0 20px;
+      }
+      .language {
+         margin: 0 auto;
       }
    }
 }
