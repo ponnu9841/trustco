@@ -651,6 +651,80 @@ nav {
    }
 }
 
+/* Cta */
+#cta {
+   padding: 104px 0;
+   background: rgba(18, 20, 29, 1);
+   overflow: hidden;
+   .cta-content {
+      padding-left: 150px;
+      max-width: 840px;
+      h2 {
+         margin-bottom: 50px;
+      }
+      button {
+         background: rgb(var(--accent));
+         gap: 25px;
+         margin-bottom: 24px;
+         div {
+            background: #c99a35;
+         }
+      }
+      .cta-info {
+         color: rgb(183, 184, 187);
+      }
+   }
+   .cta-image {
+      position: absolute;
+      right: -217px;
+      top: -36px;
+      width: 1200px;
+      img {
+         position: relative;
+         z-index: 2;
+      }
+   }
+   .badge {
+      height: 569px;
+      width: 97px;
+      position: absolute;
+   }
+   .badge-right {
+      z-index: 1;
+      right: 162px;
+      top: 220px;
+      background: #f0b73f;
+      .icon {
+         background: rgb(242, 195, 94);
+      }
+   }
+   .badge-center {
+      z-index: 3;
+      right: 315px;
+      top: 367px;
+      .icon {
+         background: rgb(44, 90, 111);
+      }
+   }
+   .badge-left {
+      z-index: 1;
+      right: 751px;
+      top: 387px;
+      .icon {
+         background: rgb(56, 58, 65);
+      }
+   }
+   .icon {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      position: relative;
+      left: 50%;
+      top: 13px;
+      transform: translateX(-50%);
+   }
+}
+
 /* Contact */
 #contact-options {
    min-height: 700px;
