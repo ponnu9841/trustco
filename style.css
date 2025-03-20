@@ -857,6 +857,7 @@ footer {
       text-align: right;
       transition: all 0.3s ease-in-out;
       box-shadow: 0px 40px 40px 0px rgba(var(--primary), 0.239);
+      z-index: -1;
    }
    .nav-list {
       background: #fff;
@@ -882,6 +883,7 @@ footer {
    .nav-wrapper.open {
       opacity: 1;
       height: fit-content;
+      z-index: 10;
    }
 
    /* Hero */
@@ -1221,6 +1223,65 @@ footer {
       .blog-header {
          order: 1;
          margin-bottom: 32px !important;
+      }
+   }
+
+   /* Contact */
+   #contact-options {
+      padding: 40px 0;
+      background: #fff;
+      h2 {
+         margin-bottom: 16px;
+      }
+      .section-description {
+         font-size: 16px;
+      }
+      .contact-card-container {
+         flex-wrap: wrap;
+         gap: 20px;
+      }
+      .contact-card {
+         min-width: 100%;
+         padding: 12px;
+         height: 316px;
+         .card-content {
+            height: calc(100% - 108px);
+            display: flex;
+            flex-direction: column;
+            button {
+               margin-top: auto;
+            }
+         }
+      }
+   }
+
+   #contact-form {
+      padding: 40px 0;
+      .section-description {
+         margin-bottom: 20px;
+         font-size: 16px;
+      }
+      form {
+         padding: 0;
+      }
+      .form-group {
+         min-width: 100% !important;
+         input {
+            height: 44px;
+            padding-left: 42px;
+         }
+         img {
+            width: 20px;
+            height: 20px;
+         }
+      }
+      .form-actions {
+         margin-top: -12px;
+         flex-direction: column;
+         gap: 20px;
+         button {
+            width: 100%;
+         }
       }
    }
 
